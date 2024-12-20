@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Wise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #90CAF9, #E3F2FD); /* Gradient background */
+            color: #333;
+        }
+
+        nav {
+            background-color: #1565C0; /* Deep blue for navbar */
+            padding: 10px 20px;
+        }
+
+        .navbar i {
+            color: white;
+        }
+
+        .btn {
+            background-color: #29B6F6;
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #0288D1; /* Darker blue for hover */
+        }
+
+        /* Content Styling */
+        .content {
+            text-align: center;
+            padding: 40px 20px;
+            color: #FFFFFF;
+        }
+
+        .content h3 {
+            font-size: 1.8rem;
+        }
+
+        .content h1 {
+            font-size: 3rem;
+            margin-top: 10px;
+        }
+
+        marquee {
+            color: #FF7043;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background: rgba(255, 235, 59, 0.2);
+            padding: 10px 0;
+        }
+
+        /* Feature Section */
+        .feature-section {
+            background: #FFFFFF;
+            margin: 40px auto;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 900px;
+            text-align: left;
+        }
+
+        .feature-section h3 {
+            color: #0288D1;
+            margin-bottom: 20px;
+        }
+
+        .feature-section h4 {
+            color: #FF7043;
+            margin-top: 20px;
+        }
+
+        .feature-section h5 {
+            color: #333;
+        }
+
+        /* Explore Button */
+        .explore-btn {
+            display: block;
+            background-color: #FFCA28;
+            color: #333;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 25px;
+            margin: 20px auto;
+            padding: 10px 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+
+        .explore-btn:hover {
+            background-color: #FBC02D; /* Slightly darker yellow */
+            text-decoration: none;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 80px;
+            background-color: #1565C0;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        footer h5 {
+            margin-bottom: 10px;
+            color: #FFCA28;
+        }
+
+        footer pre {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 400px;
+            font-family: 'Poppins', sans-serif;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <form class="container-fluid justify-content-start">
+            <i class="ph ph-list" style="font-size: 54px;"></i>
+            <a href="index.html"><button class="btn" type="button" style="margin-left: 1200px;">Search Here</button></a>
+            <i class="ph ph-user-circle" style="font-size: 60px; margin-left: 50px;"></i>
+        </form>
+    </nav>
+
+    <!-- Welcome Section -->
+    <div class="content">
+        <h3>WELCOME TO</h3>
+        <h1>WEATHER WISE</h1>
+    </div>
+    <marquee>Prepare for the Day, Every Day.</marquee>
+
+    <!-- Features Section -->
+    <div class="feature-section">
+        <h3>Explore Our Features</h3>
+        <blockquote>
+            <h4>Real-Time Weather Updates</h4>
+            <h5>Stay informed with up-to-the-minute weather updates for your location, ensuring you're always prepared.</h5>
+
+            <h4>Hourly and Weekly Forecasts</h4>
+            <h5>Plan your day and week ahead with detailed hourly and 7-day forecasts, tailored to your needs.</h5>
+
+            <h4>Weather Suggestions</h4>
+            <h5>Receive helpful tips based on the weather conditions, such as outfit recommendations or travel advisories.</h5>
+
+            <h4>Speech-Enabled Weather Reports</h4>
+            <h5>Let your app speak! Get hands-free, voice-enabled weather updates, perfect for multitasking or accessibility.</h5>
+        </blockquote>
+    </div>
+
+    <!-- Explore Button -->
+    <a href="index.html" class="explore-btn">Explore Now</a>
+
+    <!-- Footer -->
+    <footer>
+        <h5>Developed by [Team p8]</h5>
+        <p>Dedicated to providing a smarter, more interactive way to plan your day.</p>
+        <pre>Contact Details:
+ph.no : 9481131520
+email : hvmagadum04@gmail.com </pre>
+    </footer>
+</body>
+</html>

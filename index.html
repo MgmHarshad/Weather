@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App With JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="/assets/404.png" alt="404 Error">
+        </div>
+
+        <div class="weather-body">
+            <img src="/assets/cloud.png" alt="Weather Image" class="weather-img">
+
+            <div class="weather-box">
+                <p class="temperature">0 <sup>°C</sup></p>
+                <p class="description">light rain</p>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">12Km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="forecast">
+        <div style="height: 50px; width: 380px; background-color: white; text-align: center; border-radius: 10px;">
+            <h3>5-Day Forecast</h3>
+        </div>
+        <div class="day1" id="div">
+            <p class="p1"> </p>
+            <img src="" alt="Day 1 Weather" class="day1-img">
+            <p class="t1" id="d"> </p>
+            <p class="d1" id="d"></p> </p>
+            <div class="h-w">
+                <div class="h">
+                    <p class="h1" id="d"> </p>
+                    <p id="d">Humidity</p>
+                </div>
+                <div class="w">
+                    <p class="w1" id="d"> </p>
+                    <p id="d">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="day2"  id="div">
+            <p class="p2"> </p>
+            <img src="" alt="Day 2 Weather" class="day2-img">
+            <p class="t2" id="d"> </p>
+            <p class="d2" id="d"></p> </p>
+            <div class="h-w">
+                <div class="h">
+                    <p class="h2" id="d"> </p>
+                    <p id="d">Humidity</p>
+                </div>
+                <div class="w">
+                    <p class="w2" id="d"> </p>
+                    <p id="d">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="day3"  id="div">
+            <p class="p3"> </p>
+            <img src="" alt="Day 3 Weather" class="day3-img">
+            <p class="t3" id="d"> </p>
+            <p class="d3" id="d"></p> </p>
+            <div class="h-w">
+                <div class="h">
+                    <p class="h3" id="d"> </p>
+                    <p id="d">Humidity</p>
+                </div>
+                <div class="w">
+                    <p class="w3" id="d"> </p>
+                    <p id="d">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="day4"  id="div">
+            <p class="p4"> </p>
+            <img src="" alt="Day 4 Weather" class="day4-img">
+            <p class="t4" id="d"> </p>
+            <p class="d4" id="d"></p> </p>
+            <div class="h-w">
+                <div class="h">
+                    <p class="h4" id="d"> </p>
+                    <p id="d">Humidity</p>
+                </div>
+                <div class="w">
+                    <p class="w4" id="d"> </p>
+                    <p id="d">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <div class="day5"  id="div">
+            <p class="p5"> </p>
+            <img src="" alt="Day 5 Weather" class="day5-img">
+            <p class="t5" id="d"> </p>
+            <p class="d5" id="d"></p> </p>
+            <div class="h-w">
+                <div class="h">
+                    <p class="h5" id="d"> </p>
+                    <p id="d">Humidity</p>
+                </div>
+                <div class="w">
+                    <p class="w5" id="d"> </p>
+                    <p id="d">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+</body>
+</html>
